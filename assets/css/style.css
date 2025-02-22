@@ -403,20 +403,20 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
-#hero:before {
+/* #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 
 #hero .container {
   padding-top: 72px;
@@ -2195,6 +2195,7 @@ h4{
 */
 marquee{
   font-size: 2em;
+  font-family: times;
 }
 .soon{
   text-align: center;
